@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+  first_node = Node.new(node_index: 1)
+  second_node = Node.new(node_index: 2)
+  first_node.connect_to second_node
+  first_node.save!
+  second_node.save!
+  Node.neighbours_of(first_node).size.should == 1
+```
 
 ## Contributing
 
