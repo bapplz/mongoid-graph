@@ -10,5 +10,5 @@ require "mongoid/graph"
 #  first_node.save!
 #  second_node.save!
 #  Node.neighbours_of(first_node).size.should == 1
-module MongoGraph
+module Mongo
 end
