@@ -19,7 +19,7 @@ module Mongoid
     module ClassMethods
 
       def neighbours_of(node)
-        all_in(node_index: node._neighbours.to_a)
+        any_in(node_index: node._neighbours.to_a)
       end
 
     end

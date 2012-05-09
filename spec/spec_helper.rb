@@ -1,7 +1,7 @@
 require "rspec"
 require "spork"
 require "mongoid"
-require "mongo_graph"
+require "mongo-graph"
 require "support/node"
 
 Spork.prefork do

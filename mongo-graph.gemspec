@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = %w(venelin@bapplz.com)
   gem.description   = %q{Undirected graph implementation for Mongoid}
   gem.summary       = %q{Check who is connected to who, all withing the Mongoid context}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/bapplz/mongo-graph"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
