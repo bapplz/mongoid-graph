@@ -27,7 +27,7 @@ module Mongoid
     protected
 
     def generate_mongoid_neighbours
-      self._neighbours = []
+      self._neighbours ||= []
     end
   end
 end

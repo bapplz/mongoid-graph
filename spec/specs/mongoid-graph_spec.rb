@@ -37,4 +37,12 @@ describe Node do
     @third_node.save!
     Node.neighbours_of(@first_node).size.should == 1
   end
+
+  it "should have neighbours after save" do
+    @first_node.connect_to @second_node
+    @first_node.save!
+    @second_node.save!
+    first_node = Node.where(node_index: 1).first
+    Node.neighbours_of(first_node).size.should == 1
+  end
 end
