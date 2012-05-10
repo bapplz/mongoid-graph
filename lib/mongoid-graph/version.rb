@@ -1,3 +1,3 @@
-module MongoGraph
+module MongoidGraph
   VERSION = "0.0.3"
 end

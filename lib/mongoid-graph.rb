@@ -1,4 +1,4 @@
-require "mongo_graph/version"
+require "mongoid-graph/version"
 require "mongoid/graph"
 
 # Represents a Undirected general graph stored via Mongo
@@ -10,5 +10,5 @@ require "mongoid/graph"
 #  first_node.save!
 #  second_node.save!
 #  Node.neighbours_of(first_node).size.should == 1
-module Mongo
+module MongoidGraph
 end

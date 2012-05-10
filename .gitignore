@@ -1,5 +1,6 @@
 *.gem
 *.rbc
+
 .bundle
 .config
 .yardoc
@@ -21,3 +22,5 @@ tmp
 .idea/
 *.iml
 *.swp
+
+.rvmrc

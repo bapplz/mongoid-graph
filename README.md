@@ -1,4 +1,4 @@
-# Mongo graph
+# Mongoid graph
 
 Undirected graph implementation for Mongoid
 
@@ -6,7 +6,7 @@ Undirected graph implementation for Mongoid
 
 Add this line to your application's Gemfile:
 
-    gem 'mongo-graph'
+    gem 'mongoid-graph'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install mongo-graph
+    $ gem install mongoid-graph
 
 ## Usage
 

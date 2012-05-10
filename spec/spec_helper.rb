@@ -1,13 +1,13 @@
 require "rspec"
 require "spork"
 require "mongoid"
-require "mongo-graph"
+require "mongoid-graph"
 require "support/node"
 
 Spork.prefork do
 
   Mongoid.configure do |config|
-    name = "mongo-graph"
+    name = "mongoid-graph"
     config.master = Mongo::Connection.new.db(name)
   end
 
